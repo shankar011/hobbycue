@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.search {
+    background-color: purple;
+    padding: 1rem;
+}
+.groups{
+    display: block;
+}
+
+.selects select {
+    margin-top: 1rem;
+    border: none;
+}
+
+.selects img {
+    margin-left: 1rem;
+}
+
+.icons img {
+    margin: 1rem;
+}
+.mview{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+    .search {
+        background-color: purple;
+        padding: 1rem;
+    }
+   
+
+    .selects select {
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    .groups{
+        display: none;
+    }
+
+    .selects img {
+        display: none;
+    }
+    .container button{
+        display: none;
+    }
+    .mview{
+        display: block;
+    }
+    .mview img{
+        margin-right: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .container{
+        width: 100%;
+    }
+    .mview{
+        display: none;
+    }
+}
