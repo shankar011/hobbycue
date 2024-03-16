@@ -25,6 +25,7 @@
 }
 .foot .social_icon {
     display: flex;
+    flex-wrap: wrap;
 }
 .foot .social_icon img{
     margin-right: 1rem;

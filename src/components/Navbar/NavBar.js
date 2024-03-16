@@ -4,7 +4,7 @@ import styles from "./nav.module.css";
 import Logo from "../../../public/images/Logo.png"
 import Explore from "../../../public/images/Explore.png";
 import Hobbies from "../../../public/images/Hobbies.png";
-import Save from "../../../public/images/Save.png";
+import Save from "../../../public/images/save.png";
 import Bell from "../../../public/images/bell.png";
 import Cart from "../../../public/images/cart.png";
 import Search from "../../../public/images/search.png";
